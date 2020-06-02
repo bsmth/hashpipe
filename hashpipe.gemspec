@@ -6,8 +6,8 @@ require "hashpipe/version"
 Gem::Specification.new do |spec|
   spec.name          = "hashpipe"
   spec.version       = Hashpipe::VERSION
-  spec.authors       = ["tcob"]
-  spec.email         = ["briantcob@gmail.com"]
+  spec.authors       = ["bsmth"]
+  spec.email         = ["brian@smith.berlin"]
 
   spec.summary       = %q{A Ruby Hash formatter with added colorization for easy debugging.}
   spec.description   = %q{Inspired by the JQ JSON parser, this utility is intended to receive a ruby hash and will pretty print the results.}
@@ -33,7 +33,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.16"
-  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rake", ">= 12.3.3"
   spec.add_development_dependency "minitest", "~> 5.0"
   spec.add_development_dependency "ruby_parser", "~> 3.11.0"
   spec.add_development_dependency "ruby2ruby", "~> 2.4.1"
